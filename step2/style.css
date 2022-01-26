@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+#app{
+    background-image: url(img/gardiant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Permanent Marker', cursive;
+    height: 100%;
+}
+h2{
+    font-family: 'Permanent Marker', cursive;
+}
+
+button{
+    margin: 1px;
+}
+.go-back{
+    position: absolute;
+    top: 4%;
+    left: 4%;
+}
+audio{
+    padding-top: 0;
+}
+.btn.btn-dark:hover{
+    color: black;
+    background-color: rgb(221, 219, 219);
+}
+.guitar{
+    background-color: burlywood;
+    border-right: solid 10px black;
+    padding-right: 0;
+    padding-left: 0;
+    position: relative;
+}
+.str-notes{
+    text-align: left;
+    margin-left: -12%;
+    position: relative;
+    left: 8%;
+}
+.string{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+.string-1{top: 14.5%; height: 2.5%;}
+.string-2{top: 29%; height: 2%;}
+.string-3{top: 43.5%;height: 1.5%;}
+.string-4{top: 58%; height: 0.8%;}
+.string-5{top: 72.5%;height: 0.6%;}
+.string-6{top: 87%;height: 0.4%;}
+
+.new-note{
+    color: black;
+    font-weight: bolder;
+}
+.fret{
+    position: absolute;
+    height: 100%;
+    border: solid black 1px;
+    background-color: black;
+    top: 0;
+}
+.fret-1{left: 93%;}
+.fret-2{left: 86%;}
+.fret-3{left: 79%}
+.fret-4{left: 72%;}
+.fret-5{left: 65%;}
+.fret-6{left: 58%;}
+.fret-7{left: 51%;}
+.fret-8{left: 44%;}
+.fret-9{left: 37%;}
+.fret-10{left: 30%;}
+.fret-11{left: 23%;}
+.fret-12{left: 16%;}
+.fret-13{left: 9%;}
+.gtr-dot{
+    position: absolute;
+    top: 47%;
+    height: 8%;
+    width: 1.5%;
+    border-radius: 50%;
+    background-color: rgb(95, 29, 29);
+}
+.gtr-dot.one{left: 82%;}
+.gtr-dot.two{left: 68%;}
+.gtr-dot.three{left: 54%;}
+.gtr-dot.four{left: 40%;}
+.gtr-dot.five{left: 19%; top: 20%;}
+.gtr-dot.six{left: 19%; top: 76%;}
+.finger{
+    position: absolute;
+    background-color: black;
+    width: auto;
+    height: auto;
+    font-size:  15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 50%;
+    height: auto;
+    width: 3%;
+}
+.finger.barre{
+    height: 90%;
+    top: 5%;
+}
+.str-1{top: 7%;}
+.str-2{top: 22%;}
+.str-3{top: 36%;}
+.str-4{top: 50%;}
+.str-5{top: 65%;}
+.str-6{top: 80%;}
+
+.fin-fret-1{left: 95%;}
+.fin-fret-2{left: 88%;} /*88*/
+.fin-fret-3{left: 81%;}
+.fin-fret-4{left: 74%;}
+.fin-fret-5{left: 67%;}
+.fin-fret-6{left: 60%;}
+.fin-fret-7{left: 53%;}
+.fin-fret-8{left: 46%;}
+.fin-fret-9{left: 39%;}
+.fin-fret-10{left: 32%;}
+.fin-fret-11{left: 25%;}
+.fin-fret-12{left: 18%;}
+.fin-fret-13{left: 11%;}
+
+.red{
+    color: red;
+    background-color: white;
+    width: 30%;
+    position: relative;
+    left: 35%;
+    border-radius: 50%;
+}

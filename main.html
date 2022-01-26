@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chord App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="main/style.css">
+</head>
+<body id="app">
+    <div class="d-flex sticky-sm-top bg-dark px-5">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active">Basic Chords<i class="bi bi-caret-right"></i> </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="step-2.html">Positions<i class="bi bi-caret-right"></i> </a>
+            </li>
+          </ul>
+    </div>
+
+    <div class="container text-white">
+        <h2>CHORD APP <i class="bi bi-boombox"></i></h2>
+        <h4>Step 1: Learn basic guitar-chords</h4>
+        <div id="all-btns">
+            <div class="row mx-auto">
+                <div id="chord-buttons"></div>
+            </div>
+        </div>
+        <div class="row mx-1 my-2">
+            <div class="guitar container col-11 py-auto">
+                <div class="string string-1"></div>
+                <div class="string string-2"></div>
+                <div class="string string-3"></div>
+                <div class="string string-4"></div>
+                <div class="string string-5"></div>
+                <div class="string string-6"></div>
+                <div class="fret fret-1"></div>
+                <div class="fret fret-2"></div>
+                <div class="fret fret-3"></div>
+                <div class="fret fret-4"></div>
+                <div class="gtr-dot one"></div>
+                <div class="gtr-dot two"></div>
+                <div id="fingers-position"></div>
+            </div>
+            <div class="col-1 str-notes">
+                    <div class="str-note-1">E</div>
+                    <div class="str-note-2">A</div>
+                    <div class="str-note-3">D</div>
+                    <div class="str-note-4">G</div>
+                    <div class="str-note-5">B</div>
+                    <div class="str-note-6">E</div>
+            </div>
+        </div>
+        <span class="text-dark">'number' = finger index; <i class="bi bi-dash-circle"></i> = avoid this string;</span>
+        <div id="cards"></div>
+    </div>
+    <script src="main/script.js"></script>
+    <script src="main/display.js"></script>
+</body>
+</html>
