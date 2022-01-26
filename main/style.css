@@ -2,12 +2,11 @@
     box-sizing: border-box;
     text-align: center;
 }
-#app{
+body{
     background-image: url(img/gardiant.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Permanent Marker', cursive;
-    height: 100%;
+    background-attachment: fixed;
 }
 h2{
     font-family: 'Permanent Marker', cursive;
@@ -27,7 +26,7 @@ button{
 }
 .str-notes{
     position: relative;
-    left: 3%;
+    left: 10%;
     text-align: left;
     margin-left: -12%;
 }

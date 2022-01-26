@@ -40,8 +40,7 @@ function chordModule(event){
   const forbiddenNotes = handPosition[0].Xstr;
   let indexer = 0;
   forbiddenNotes.forEach(e => {
-    document.querySelector(`.str-note-${e}`).innerHTML = `-`
-    document.querySelector(`.str-note-${e}`).classList.add(`red`);
+    document.querySelector(`.str-note-${e}`).innerHTML = `<i class="bi bi-dash-circle"></i>`
   })
   handPosition.forEach((e,i) => {
     if(e.frt == "finger down"){

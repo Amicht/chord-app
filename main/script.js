@@ -73,12 +73,14 @@ function chordBarre(root,chord_type){
     if(chord_type == "Major"){
         if(rootLocation.string==1){
             return [{string:rootLocation.string,fret:rootLocation.fret,hand:`barre`},
-            {string:(rootLocation.string+3),fret:(rootLocation.fret+1)},{string:(rootLocation.string+1),fret:(rootLocation.fret+2)},
+            {string:(rootLocation.string+3),fret:(rootLocation.fret+1)},
+            {string:(rootLocation.string+1),fret:(rootLocation.fret+2)},
             {string:(rootLocation.string+2),fret:(rootLocation.fret+2)}]
         }
         if(rootLocation.string==2){
             return [{string:rootLocation.string,fret:rootLocation.fret,hand:`barre`},
-            {string:(rootLocation.string+1),fret:(rootLocation.fret+2)},{string:(rootLocation.string+2),fret:(rootLocation.fret+2)},
+            {string:(rootLocation.string+1),fret:(rootLocation.fret+2)},
+            {string:(rootLocation.string+2),fret:(rootLocation.fret+2)},
             {string:(rootLocation.string+3),fret:(rootLocation.fret+2)}]
         }
     }
@@ -90,7 +92,8 @@ function chordBarre(root,chord_type){
         }
         if(rootLocation.string==2){
             return [{string:rootLocation.string,fret:rootLocation.fret,hand:`barre`},
-            {string:(rootLocation.string+3),fret:(rootLocation.fret+1)},{string:(rootLocation.string+1),fret:(rootLocation.fret+2)},
+            {string:(rootLocation.string+3),fret:(rootLocation.fret+1)},
+            {string:(rootLocation.string+1),fret:(rootLocation.fret+2)},
             {string:(rootLocation.string+2),fret:(rootLocation.fret+2)}]
         }
     }

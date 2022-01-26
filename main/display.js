@@ -21,7 +21,7 @@ function basicChords(event){
       let newNote = fingers[i].string;
       const str = document.querySelector(`.str-note-${newNote}`)
       str.innerHTML = fingers[i].note;
-      str.classList.add(`new-note`)
+      //str.classList.add(`new-note`);
       
         fingersToHTML += `<div class="finger str-${fingers[i].string} 
         fin-fret-${fingers[i].fret}">${i+1}</div>`;
@@ -33,8 +33,7 @@ function basicChords(event){
     if(found.root==avoidString.innerHTML){
       break;
     }
-    avoidString.innerHTML = "-";
-    avoidString.classList.add(`red`);
+    avoidString.innerHTML = `<i class="bi bi-dash-circle"></i>`;
   }
 }
 function chordCard(chord){

@@ -2,17 +2,15 @@
     box-sizing: border-box;
     text-align: center;
 }
-#app{
+body{
     background-image: url(img/gardiant.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Permanent Marker', cursive;
-    height: 100%;
+    background-attachment: fixed;
 }
 h2{
     font-family: 'Permanent Marker', cursive;
 }
-
 button{
     margin: 1px;
 }
@@ -20,9 +18,6 @@ button{
     position: absolute;
     top: 4%;
     left: 4%;
-}
-audio{
-    padding-top: 0;
 }
 .btn.btn-dark:hover{
     color: black;
@@ -39,7 +34,7 @@ audio{
     text-align: left;
     margin-left: -12%;
     position: relative;
-    left: 8%;
+    left: -2%;
 }
 .string{
     position: absolute;
@@ -116,7 +111,7 @@ audio{
 .str-6{top: 80%;}
 
 .fin-fret-1{left: 95%;}
-.fin-fret-2{left: 88%;} /*88*/
+.fin-fret-2{left: 88%;} 
 .fin-fret-3{left: 81%;}
 .fin-fret-4{left: 74%;}
 .fin-fret-5{left: 67%;}
@@ -130,10 +125,5 @@ audio{
 .fin-fret-13{left: 11%;}
 
 .red{
-    color: red;
-    background-color: white;
-    width: 30%;
-    position: relative;
-    left: 35%;
-    border-radius: 50%;
+    color: black;
 }
