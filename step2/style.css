@@ -102,6 +102,7 @@ button{
 .finger.barre{
     height: 90%;
     top: 5%;
+    border-radius: 15%;
 }
 .str-1{top: 7%;}
 .str-2{top: 22%;}
