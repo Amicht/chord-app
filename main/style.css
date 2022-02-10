@@ -3,7 +3,7 @@
     text-align: center;
 }
 body{
-    background-image: url(img/gardiant.jpg);
+    background-image: linear-gradient(rgb(122, 7, 122), rgb(241, 105, 128), rgb(68, 1, 68));
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
