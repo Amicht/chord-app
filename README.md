@@ -1,15 +1,15 @@
-# chord-app
+# CHORD APP
 
-### APP Link
+### App Link:
 https://amicht.github.io/chord-app/main.html
 
 
-### Description
+### Description:
 Guitar Chord-learning App for beginners and advanced musicians\guitarists, 
 - currently contain only 'triad-chords'
 
 
-### Basic-Chords Page
+### Basic-Chords Page:
 - beginners tool for basic chords positions (open chords)
 - click on a Chord name will show: 
   - chord position fingerring
@@ -17,7 +17,7 @@ Guitar Chord-learning App for beginners and advanced musicians\guitarists,
   - a card with some data about the chord
 
 
-### Positions Page
+### Positions Page:
 the same as the first page with extentions:
 
 - select the chord by; 
