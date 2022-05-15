@@ -1,7 +1,6 @@
 # CHORD APP
 
-### App Link:
-https://amicht.github.io/chord-app/main.html
+### [Go to App](https://amicht.github.io/chord-app/main.html)
 
 
 ### Description:
